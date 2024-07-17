@@ -1,0 +1,140 @@
+@media screen and (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+}
+.hero-area-banner {
+  position: relative;
+}
+.hero-area-banner .banner-img {
+  width: 100%;
+  height: 80vh;
+  z-index: -1;
+}
+.hero-area-banner .banner-img img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.8);
+  object-fit: cover;
+  background-position: center;
+}
+.hero-area-banner .banner-content {
+  position: absolute;
+  left: 5%;
+  top: 6%;
+  border-bottom: 3px solid rgb(210, 43, 43);
+}
+
+.about .bg-auto-fill {
+  display: block;
+  position: relative;
+  background-color: #f2f8f9;
+  z-index: 0;
+  overflow: hidden;
+}
+.about .bg-auto-fill h2 {
+  color: #D22B2B;
+}
+.about .bg-auto-fill:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -32px;
+  right: -32px;
+  background: #00838d;
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.6s ease-out;
+}
+.about .bg-auto-fill:hover:before {
+  transform: scale(40);
+}
+.about .bg-auto-fill:hover p {
+  transition: all 0.3s ease-out;
+  color: rgba(255, 255, 255, 0.8);
+}
+.about .bg-auto-fill:hover h2 {
+  transition: all 0.3s ease-out;
+  color: #ffffff;
+}
+
+.testimonial-section {
+  position: relative;
+}
+.testimonial-section .testimonial-bg-img {
+  width: 100%;
+  height: 80vh;
+}
+.testimonial-section .testimonial-bg-img img {
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.4);
+}
+.testimonial-section .testimonial-content {
+  position: absolute;
+  width: 50%;
+  top: 10%;
+  /* z-index: 1; */
+  display: inline-block;
+  left: 24%;
+  color: black;
+}
+.testimonial-section .testimonial-content .user-img {
+  width: 50px;
+  display: inline-block;
+}
+.testimonial-section .testimonial-content .user-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+.testimonial-section .testimonial-content .user-feedback {
+  display: inline;
+}
+.testimonial-section .testimonial-content .owl-dots {
+  padding: 10px;
+}
+.testimonial-section .testimonial-content .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  margin: 3px;
+}
+.testimonial-section .testimonial-content .owl-dots .owl-dot.active {
+  background-color: white;
+}
+
+.fotter .container .row .col-lg-3 .fotter-font i {
+  background-color: rgb(53, 52, 52);
+}
+.fotter .container .row .col-lg-3 .fotter-font i.fa-google:hover {
+  background-color: red;
+  transition: 1s;
+}
+.fotter .container .row .col-lg-3 .fotter-font i.fa-facebook:hover {
+  background-color: blue;
+  transition: 1s;
+}
+.fotter .container .row .col-lg-3 .fotter-font i.fa-twitter:hover {
+  background-color: #1DA1F2;
+  transition: 1s;
+}
+.fotter .container .row .col-lg-3 .fotter-font i.fa-linkedin-in:hover {
+  background-color: #0077b5;
+  transition: 1s;
+}
+.fotter .container .row .col-lg-3 .footer-img {
+  width: 80px;
+  height: 80px;
+  background-position: bottom;
+}
+.fotter .container .row .col-lg-3 .footer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,48 @@
+.testimonial-section {
+    position: relative;
+    .testimonial-bg-img {
+        width: 100%;
+        height: 80vh;
+        img {
+            width: 100%;
+            height: 100%;
+            filter: brightness(0.4);
+        }
+    }
+    .testimonial-content {
+        position: absolute;
+        width: 50%;
+        top: 10%;
+        display: inline-block;
+        left: calc(74% - 50%);
+        color: black;
+
+        .user-img {
+            width: 50px;
+            display: inline-block;
+            // margin: auto;
+
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        .user-feedback {
+            display: inline;
+        }
+        .owl-dots {
+            padding: 10px;
+            .owl-dot {
+                width: 10px;
+                height: 10px;
+                border: 1px solid gray;
+                border-radius: 50%;
+                margin: 3px;
+                &.active {
+                    background-color: white;
+                }
+            }
+        }
+    }
+
+}
